@@ -5,4 +5,4 @@ set -e
 
 
 # Run the Docker image as a container
-docker run -d -p 5000:5000 gurudevsingh/simple-python-app:latest
+sudo docker run -d -p 5000:5000 gurudevsingh/simple-python-app:latest
